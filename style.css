@@ -1,0 +1,158 @@
+body {
+    /* min-width: 230px; */
+    /* text-align: center; */
+    /* font-family: Arial; */
+    overflow-x: hidden;
+    background-color: #fcdc00;
+    font-family: sans-serif;
+    font-size: .875em
+    
+  }
+  .html {
+    background-color: aliceblue;
+  }
+/* .odometer {
+    /* width:fit-content; */
+    /* max-width:300px;
+    margin-right: auto;
+    font-size: 70px;
+    background-color: #fcdc00;
+    font-style: italic;
+    font-weight: 500;
+  /* } */
+  
+  .odoline #odometer {
+    display: block;
+    margin: 0;
+    /* display:flex; */
+    /* padding-right: 170px; */
+    /* padding: 0 20px; */
+  }
+  /* .odometer-inside {
+    display: flex;
+  } */
+ 
+  @media only screen and (max-width: 765px) {
+    .logo-large {
+        display: none;
+    }
+  }
+  @media only screen and (min-width: 766px) {
+    .logo-small {
+        display: none;
+    }
+  }
+  .nav-item a {
+    color: white;
+    padding-left: 30px;
+    font-size: 1em;
+  }
+  .nav-itemtry a {
+    color: white;
+    padding-left: 30px;
+    font-size: 1em;
+
+  }
+  .navbar-nav {
+    /* --bs-nav-link-padding-y: 0.8rem; */
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+  }
+  @media only screen and (max-width: 600px) {
+    .nav-item button {
+        display: none;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .nav-itemtry a {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .nav-item a {
+        
+        padding-left: 25px;
+        font-size: 1em;
+      }
+      .nav-itemtry a {
+       
+        padding-left: 25px;
+        font-size: 1em;
+      }
+      .navbar {
+        height: 4em;
+      }
+      .logo-small img {
+        width: 60px;
+        height: 50px;
+        
+      }
+        .container-fluid {
+            --bs-gutter-x: 0;
+        }
+        .navbar-nav {
+            margin-right: 13px;
+        }
+  }
+  @media  screen and (min-width: 453px) {
+    .title1 h1 {
+       font-weight: 1000;
+       font-size: 79px;
+       
+     }
+   }
+       
+  @media  screen and (max-width: 452px) {
+   .title1 h1 {
+      font-weight: 1000;
+      font-size: 55px;
+      
+    }
+  }
+  @media  screen and (max-width: 292px) {
+    .title1 h1 {
+       font-weight: 1000;
+       font-size: 45px;
+       
+     }
+   }
+      
+  .odometer {
+  
+    max-width: 300px;
+   
+    font-size: 50px;
+    background-color: #fcdc00;
+    font-style: italic;
+  } 
+  
+  .odo #odometer {
+    display: block;
+    margin: 0;
+  
+  } 
+  .spacer {
+    height: 75px;
+}
+.courses1 {
+    background-image: url(https://www.javascript.com/content/pluralsight/jscom/jcr:content/main/generic_block_copy_c_1959881321/parsys/generic_block_1398242984/parsys/columns/column-parsys-2/generic_block_copy_254037847/image-res.img.aba32e09-2d64-4861-9e94-dbbf86c31232.jpg);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+}
+.courses2 {
+    background-image: url(https://www.javascript.com/content/pluralsight/jscom/jcr:content/main/generic_block_copy_c_1959881321/parsys/generic_block_1398242984/parsys/columns/column-parsys-2/generic_block_copy_1670164237/image-res.img.ede81306-ed80-4d24-a144-a96b88f61f77.jpg);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+}
+.courses3 {
+    background-image: url(https://www.javascript.com/content/pluralsight/jscom/jcr:content/main/generic_block_copy_c_1959881321/parsys/generic_block_1398242984/parsys/columns/column-parsys-2/generic_block_copy/image-res.img.bb915423-d79e-4e04-bf01-0760bdfec7eb.jpg);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+}
